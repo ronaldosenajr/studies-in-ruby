@@ -1,9 +1,0 @@
-AllCops:
-  EnabledByDefault: true
-Layout/EndOfLine:
-  Enabled: false
-Style/Copyright:
-  Enabled: false
-  AutocorrectNotice: "Copyright 2022 by ronaldo"
-Lint/ConstantResolution:
-  Enabled: false
