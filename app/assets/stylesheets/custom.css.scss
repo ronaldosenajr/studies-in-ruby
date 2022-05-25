@@ -1,11 +1,23 @@
 @import 'bootstrap/dist/css/bootstrap';
 
+html, body {
+ height: 100%;
+}
+
 .navbar {
 	background-color: #D5D1AE !important;
 }
 
 .nav-link {
 	color: white !important;
+}
+
+.jumbotron {
+	background-image: asset-url('hero.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 425px;
 }
 
 #logo {
@@ -21,12 +33,12 @@
  margin-top: 25px;
 }
 
-.jumbotron {
-	background-image: asset-url('hero.jpg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 425px;
+#page-content {
+  flex: 1 0 auto;
+	background-color: #ebeae0;
+}
 
-
+#sticky-footer {
+	background-color: #e0dec6 !important;
+	flex-shrink: none;
 }
