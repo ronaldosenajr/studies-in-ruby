@@ -1,2 +1,4 @@
 <h1 class="text-center mt-4">Listing all articles</h1>
+<%= will_paginate @articles, list_classes: %w(pagination justify-content-center), previous_label: 'Previous', next_label: 'Next'%>
 <%= render 'article' %>
+<%= will_paginate @articles, list_classes: %w(pagination justify-content-center mb-4), previous_label: 'Previous', next_label: 'Next'%>
